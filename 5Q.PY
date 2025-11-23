@@ -1,4 +1,10 @@
-# ----------- math_utils module area -----------
+#5.	Design a module math_utils.py with functions:
+#factorial(n)
+#is_prime(n)
+#gcd(a,b)
+#Include exception handling for invalid or negative inputs. Import and test these functions from another script.
+
+
 
 def factorial(n):
     if not isinstance(n, int):
@@ -50,3 +56,4 @@ try:
 
 except Exception as e:
     print("Error:", e)
+
