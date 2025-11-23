@@ -1,4 +1,6 @@
-# Program to calculate total, average and grade of a student
+#3.	You’re building a small program for a school. The user must enter the student’s name and marks in three subjects. The program should calculate the total, average, and display a grade. If marks are not between 0 and 100, show an error message. 
+Concepts: Input/Output, data validation, arithmetic, if–elif–else.
+
 
 # Taking inputs
 name = input("Enter the student's name: ")
@@ -34,3 +36,4 @@ print("Name:", name)
 print("Total Marks:", total)
 print("Average Marks:", round(average, 2))
 print("Grade:", grade)
+
