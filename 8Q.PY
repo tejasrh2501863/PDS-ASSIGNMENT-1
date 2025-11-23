@@ -1,3 +1,4 @@
+#8.	Output dictionary which contains only the odd numbers that are present in the input list as keys and their cubes as values using List Comprehension
 # Program to create a dictionary of odd numbers and their cubes
 
 # Input list
@@ -8,3 +9,4 @@ odd_cubes = {num: num**3 for num in numbers if num % 2 != 0}
 
 # Output
 print("Output Dictionary:", odd_cubes)
+
