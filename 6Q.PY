@@ -1,4 +1,5 @@
-employees = []   # To store employee records as (name, total_salary)
+#6.A company needs a program that reads employee names and their basic salary.The program should: Calculate total salary including HRA (20%) and DA (10%).Stop taking input when the user types "stop". Display each employee’s total salary at the end.
+
 
 print("Enter employee details. Type 'stop' to finish.\n")
 
@@ -24,3 +25,4 @@ while True:
 print("\n----- EMPLOYEE TOTAL SALARY REPORT -----")
 for name, total in employees:
     print(f"Employee: {name} | Total Salary: ₹{total:.2f}")
+
