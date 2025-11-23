@@ -1,4 +1,8 @@
-# Ask the user for the distance they want to travel
+"""1.Create a python program that asks the user how far they want to travel. If they want to travel less than three miles tell them to ride Bicycle.
+if they want to travel more than three miles, but less than three hundred miles, tell them to ride Motor-Cycle.
+if they want to travel three hundred miles or more tell them to drive Super-Car"""
+
+
 distance = float(input("How far do you want to travel (in miles)? "))
 
 # Check conditions and give suggestions
@@ -8,3 +12,4 @@ elif distance < 300:
     print("You should ride a Motor-Cycle.")
 else:
     print("You should drive a Super-Car.")
+
