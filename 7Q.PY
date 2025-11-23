@@ -1,3 +1,15 @@
+#7.	Given list of items purchased in a file display the following: No of items purchased, No of free items, Amount to pay, Discount given, Final amount paid
+Concepts: files, dictonary
+
+#Sample output for purchase-1.txt file:
+#No of items purchased: 5 
+#No of free items: 2
+#Amount to pay: 485
+#Discount given: 80
+#Final amount paid: 405
+
+
+
 def process_custom_purchase_file(filename):
     total_items = 0
     free_items = 0
@@ -61,4 +73,5 @@ def create_custom_test_files():
         f2.write("Discount 80\n")
 create_custom_test_files()
 process_custom_purchase_file("purchase1.txt")
+
 process_custom_purchase_file("purchase2.txt")
