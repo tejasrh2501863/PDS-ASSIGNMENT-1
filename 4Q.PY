@@ -1,4 +1,6 @@
-# Program to record 12 hourly speeds and analyze traffic flow
+#3.You’re building a small program for a school. The user must enter the student’s name and marks in three subjects. The program should calculate the total, average, and display a grade. If marks are not between 0 and 100, show an error message. 
+Concepts: Input/Output, data validation, arithmetic, if–elif–else.
+
 
 speeds = []
 
@@ -24,3 +26,4 @@ else:
 print("\n----- TRAFFIC REPORT -----")
 print("Average Speed:", round(avg_speed, 2))
 print("Traffic Flow:", flow)
+
